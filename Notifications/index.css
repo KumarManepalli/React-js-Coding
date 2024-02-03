@@ -1,0 +1,81 @@
+/* Write your code here. */
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
+  .bg-container {
+    height: 100vh;
+    color: #ffffff;
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header {
+    font-size: 30px;
+    color: #0f172a;
+  }
+  
+  .msg-card-primary {
+    height: 80px;
+    background-color: #0b69ff;
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .msg-card-success {
+    height: 80px;
+    background-color: #2dca73;
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .msg-card-warning {
+    height: 80px;
+    background-color: #ffb800;
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .msg-card-danger {
+    height: 80px;
+    background-color: #ff0b37;
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .imgEl {
+    height: 20px;
+    margin-right: 20px;
+    width: 20px;
+  }
+  @media screen and (min-width: 768px) {
+    .msg-card-primary {
+      min-width: 400px;
+    }
+    .msg-card-success {
+      min-width: 400px;
+    }
+    .msg-card-warning {
+      min-width: 400px;
+    }
+    .msg-card-danger {
+      min-width: 400px;
+    }
+    .header {
+      font-size: 45px;
+    }
+  }
+  
